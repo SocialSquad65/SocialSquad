@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialSquad</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        header {
+            background-color: #141414;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            animation: slideInDown 1s ease-in-out;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+        }
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        .logo-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1s ease, transform 1s ease;
+        }
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #141414;
+            color: #fff;
+            animation: slideInUp 1s ease-in-out;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        .black-area {
+            background-color: #000;
+            padding: 50px 0;
+            color: #fff;
+        }
+        #contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#contact h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 16px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact button:hover {
+    background-color: #2980b9;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wilkommen bei SocialSquad!</h1>
+    </header>
+
+    <nav>
+    
+        <a href="#about">Über uns</a>
+        <a href="#services">Leistungen</a>
+        <a href="#contact">Kontakt</a>
+        <a href="#social">Social Media</a>
+    </nav>
+
+    <section class="animate-on-scroll" id="about">
+        <h2>Über uns</h2>
+        <p>
+
+            Wir sind eine dynamische Gruppe von vier individuellen Persönlichkeiten, 
+            die jedoch alle von derselben Leidenschaft und Vision angetrieben werden: Die Revolutionierung von Dienstleistungen 
+            im Bereich der Informatik. Unser gemeinsames Ziel ist es, 
+            wegweisende Innovationen und kreative Lösungen zu schaffen,
+             um die Welt der Informationstechnologie auf ein neues Niveau zu heben. 
+            
+            Die Ursprünge unserer Zusammenarbeit liegen in einer kleinen, aber bahnbrechenden Idee, 
+            die sich im Laufe der Zeit zu einem ehrgeizigen Großprojekt entwickelt hat: SocialSquad. 
+            Was als Funke der Inspiration begann, wurde zu einer beeindruckenden Vision, 
+            die weit über die konventionellen Grenzen hinausgeht.
+            
+            Unsere Vielfalt in Persönlichkeiten und Fähigkeiten spiegelt sich in unserem Team wider. 
+            Jeder von uns bringt ein einzigartiges Set an Kompetenzen und Erfahrungen mit, was uns ermöglicht,
+             eine breite Palette von Fachgebieten abzudecken. Obwohl wir als Einzelne unterschiedliche Wege gegangen sind, 
+             haben wir uns aufgrund unserer gemeinsamen Überzeugung und unserer Liebe zur Informatik zu einem starken Team vereint.
+            
+            SocialSquad ist unser kollektives Meisterwerk, das darauf abzielt, die Art und Weise,
+             wie Dienstleistungen im Informatikbereich angeboten und genutzt werden, zu transformieren.
+              Unser Fokus liegt darauf, innovative Lösungen zu entwickeln, die nicht nur den aktuellen Anforderungen gerecht werden, 
+              sondern auch den Blick auf die Zukunft richten. Wir sind davon überzeugt,
+               dass durch die Integration von modernsten Technologien und kreativen Ansätzen in die Welt der Informatik,
+                wir positive Veränderungen bewirken können.
+            
+            Wir stehen erst am Anfang unserer Reise, aber unsere Begeisterung und Entschlossenheit sind stärker denn je.
+             SocialSquad ist nicht nur ein Projekt für uns, sondern eine Mission, die wir mit Hingabe und Engagement verfolgen.
+              Wir sind bereit, die Herausforderungen anzunehmen, die vor uns liegen, und die Welt der Informatik nachhaltig zu prägen.</p>
+    </section>
+
+    <section class="animate-on-scroll" id="services">
+        <h2>Unsere Dienstleistungen:</h2>
+        <p>
+            SocialSquad, eine innovative Firma im Bereich der Informatik, bietet eine breite Palette von Dienstleistungen an,
+             die darauf abzielen, die Präsenz und das Engagement im digitalen Raum zu optimieren.
+             Unser Fokus liegt auf vier zentralen Bereichen: die Erstellung von ansprechenden Thumbnails, 
+             professionellem Videoschnitt, Webdesign und Social-Media-Management.
+<ol>      <li>
+            Thumbnails:
+            Unsere Expertise in der Gestaltung von Thumbnails ermöglicht es Unternehmen und Content-Erstellern,
+             sich von der Masse abzuheben. Wir verstehen die Bedeutung eines aussagekräftigen Thumbnails,
+              das nicht nur die Aufmerksamkeit einfängt, sondern auch die Kernbotschaft des Inhalts kommuniziert.
+               Durch kreative Grafikdesigns und sorgfältig ausgewählte Elemente sorgen wir dafür,
+                dass Ihre Inhalte sofort ins Auge fallen und eine höhere Klickrate erzielen.
+         </li><li>   </br>
+             Video Schnitt:
+            Die professionelle Bearbeitung von Videos ist entscheidend, um qualitativ hochwertige und fesselnde Inhalte zu erstellen.
+             SocialSquad bietet umfassende Videobearbeitungsdienste an, die von der Schnitttechnik bis zur Farbkorrektur reichen. 
+             Unser erfahrenes Team bringt Ihre Ideen zum Leben, indem es eine nahtlose Erzählung schafft und visuelle Effekte integriert,
+              um ein beeindruckendes Zuschauererlebnis zu gewährleisten.
+            </li><li>  </br>    
+             Webdesign:
+            Eine ansprechende und funktionale Website ist heutzutage von entscheidender Bedeutung für den Erfolg eines Unternehmens.
+             SocialSquad verbindet ästhetisches Design mit intuitiver Benutzerfreundlichkeit, um Websites zu entwickeln,
+              die nicht nur beeindrucken, sondern auch eine effektive Interaktion mit dem Publikum ermöglichen. 
+              Unser Team arbeitet eng mit Kunden zusammen, um maßgeschneiderte Webseiten zu erstellen,
+               die ihre individuellen Anforderungen und Ziele widerspiegeln.
+            </li><li>   </br>
+         Social Media Management:
+            In der heutigen digitalen Ära ist eine starke Präsenz in den sozialen Medien entscheidend. 
+            SocialSquad übernimmt das Management von Social-Media-Plattformen, um die Reichweite zu maximieren,
+             das Publikum zu engagieren und eine konsistente Markenbotschaft zu kommunizieren. 
+             Wir entwickeln maßgeschneiderte Strategien, erstellen ansprechende Inhalte und analysieren kontinuierlich die Leistung, 
+             um sicherzustellen, dass Ihre Marke in den sozialen Medien erfolgreich ist.
+ </ol>            </li>
+            Mit SocialSquad haben Unternehmen die Möglichkeit, 
+            ihre digitale Präsenz auf ein neues Niveau zu heben und durch kreative Dienstleistungen im Bereich Thumbnails, 
+            Videoschnitt, Webdesign und Social-Media-Management einen bleibenden Eindruck zu hinterlassen.
+        
+           
+        </p>
+    
+    </section>
+
+    <section class="animate-on-scroll" id="contact">
+            <h2>Kontaktiere uns</h2>
+            <p>Für Anfragen, Informationen oder eine Zusammenarbeit stehen wir Ihnen gerne zur Verfügung. Nutzen Sie das folgende Formular, um uns eine Nachricht zu senden:</p>
+            
+            <form action="mailto:socialsquad65@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="submit">Nachricht senden</button>
+            </form>
+        </section>
+        
+
+    <footer>
+        &copy; 2024 SocialSquad. Alle Rechte vorbehalten.
+    </footer>
+
+    <div class="black-area" id="social">
+        <center>
+        <h2>Social Media:</h2>
+        <p>TikTok: @socialsquad8</p>
+        <p>YouTube: @SocialSquad8</p>
+        <p>Instagramm: @socialsquad188</p>
+    </center>
+    </div>
+    
+
+    <script>
+        const sections = document.querySelectorAll('.animate-on-scroll');
+
+        function checkViewport() {
+            sections.forEach((section) => {
+                const sectionTop = section.getBoundingClientRect().top;
+                if (sectionTop < window.innerHeight - 100) {
+                    section.style.opacity = 1;
+                    section.style.transform = 'translateY(0)';
+                }
+            });
+        }
+
+        window.addEventListener('scroll', checkViewport);
+        window.addEventListener('load', checkViewport); // Trigger on page load
+    </script>
+</body>
+</html>
